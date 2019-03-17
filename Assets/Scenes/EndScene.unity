@@ -391,6 +391,80 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 7929089532422833960}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1608213203
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7379761627155547637, guid: 1c95dfeb8cb846647bea68c4ce6d6c25,
+        type: 3}
+      propertyPath: m_Name
+      value: Music
+      objectReference: {fileID: 0}
+    - target: {fileID: 7379761627155547639, guid: 1c95dfeb8cb846647bea68c4ce6d6c25,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 381.79236
+      objectReference: {fileID: 0}
+    - target: {fileID: 7379761627155547639, guid: 1c95dfeb8cb846647bea68c4ce6d6c25,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 217.0817
+      objectReference: {fileID: 0}
+    - target: {fileID: 7379761627155547639, guid: 1c95dfeb8cb846647bea68c4ce6d6c25,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.6701072
+      objectReference: {fileID: 0}
+    - target: {fileID: 7379761627155547639, guid: 1c95dfeb8cb846647bea68c4ce6d6c25,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7379761627155547639, guid: 1c95dfeb8cb846647bea68c4ce6d6c25,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7379761627155547639, guid: 1c95dfeb8cb846647bea68c4ce6d6c25,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7379761627155547639, guid: 1c95dfeb8cb846647bea68c4ce6d6c25,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7379761627155547639, guid: 1c95dfeb8cb846647bea68c4ce6d6c25,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7379761627155547639, guid: 1c95dfeb8cb846647bea68c4ce6d6c25,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7379761627155547639, guid: 1c95dfeb8cb846647bea68c4ce6d6c25,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7379761627155547639, guid: 1c95dfeb8cb846647bea68c4ce6d6c25,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7379761627155547636, guid: 1c95dfeb8cb846647bea68c4ce6d6c25,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: dd80ad89542c5164f89507c5e0fafbc6, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1c95dfeb8cb846647bea68c4ce6d6c25, type: 3}
 --- !u!1 &1846584163
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,7 +476,7 @@ GameObject:
   - component: {fileID: 1846584165}
   - component: {fileID: 1846584164}
   m_Layer: 0
-  m_Name: horseman
+  m_Name: credits
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -416,7 +490,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1846584163}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 28cbf3a883c0b4525ade96424ed4fbb2, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 862d0a0ed2aca9c43abc6010e634578b, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 2137903836}
@@ -429,14 +503,12 @@ VideoPlayer:
   m_DataSource: 0
   m_PlaybackSpeed: 0.6
   m_AudioOutputMode: 2
-  m_TargetAudioSources:
-  - {fileID: 0}
-  m_DirectAudioVolumes:
-  - 1
+  m_TargetAudioSources: []
+  m_DirectAudioVolumes: []
   m_Url: 
-  m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 01
-  m_ControlledAudioTrackCount: 1
+  m_EnabledAudioTracks: 
+  m_DirectAudioMutes: 
+  m_ControlledAudioTrackCount: 0
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
   m_Looping: 1
@@ -488,10 +560,10 @@ RectTransform:
   m_Father: {fileID: 1013124058}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 235.4, y: 2.1}
-  m_SizeDelta: {x: 413, y: 342.2}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 248.6, y: 54.6}
+  m_SizeDelta: {x: 462.1, y: 90.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1927525580
 MonoBehaviour:
@@ -515,22 +587,18 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 56
+    m_FontSize: 12
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 4
+    m_MinSize: 1
     m_MaxSize: 56
-    m_Alignment: 0
+    m_Alignment: 6
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Alexandre Jouy
-
-    Arthur Fournier
-
-    Marie Martin'
+  m_Text: "Cr\xE9dits musicaux :\nKevin McLeod\n??\n??"
 --- !u!222 &1927525581
 CanvasRenderer:
   m_ObjectHideFlags: 0
