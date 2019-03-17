@@ -229,11 +229,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 7929089531671832673, guid: 80d474cd40c971d47adb0a123dea0e64,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7929089531230642128, guid: 80d474cd40c971d47adb0a123dea0e64,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -263,6 +258,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Text
       value: QUITTER
+      objectReference: {fileID: 0}
+    - target: {fileID: 7929089531671832673, guid: 80d474cd40c971d47adb0a123dea0e64,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80d474cd40c971d47adb0a123dea0e64, type: 3}
@@ -375,7 +375,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1225890039}
-  - {fileID: 1927525579}
+  - {fileID: 2104883193}
   - {fileID: 292740359}
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -553,17 +553,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1927525578}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1013124058}
-  m_RootOrder: 1
+  m_Father: {fileID: 2104883193}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 248.6, y: 54.6}
-  m_SizeDelta: {x: 462.1, y: 90.4}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 6.130005, y: 0.79999924}
+  m_SizeDelta: {x: 12.149994, y: 1.199997}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1927525580
 MonoBehaviour:
@@ -598,7 +598,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Cr\xE9dits musicaux :\nKevin McLeod\n??\n??"
+  m_Text: "Cr\xE9dits musicaux (Attribution 3.0/Educational Use):\nKevin McLeod (incompetech.com)\nMike
+    Koenig (http://soundbible.com/1296-Horse-Neigh.html)\nhttps://purple-planet.com\nhttps://bensound.com"
 --- !u!222 &1927525581
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -673,6 +674,81 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2104883192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2104883193}
+  - component: {fileID: 2104883195}
+  - component: {fileID: 2104883194}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2104883193
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104883192}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1927525579}
+  m_Father: {fileID: 1013124058}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 242.3, y: 46.399994}
+  m_SizeDelta: {x: 449.6, y: 74.399994}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2104883194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104883192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &2104883195
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104883192}
+  m_CullTransparentMesh: 0
 --- !u!1 &2137903834
 GameObject:
   m_ObjectHideFlags: 0
@@ -872,16 +948,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 7929089531671832673, guid: 80d474cd40c971d47adb0a123dea0e64,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -0.025001526
-      objectReference: {fileID: 0}
-    - target: {fileID: 7929089531671832673, guid: 80d474cd40c971d47adb0a123dea0e64,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0.049988
-      objectReference: {fileID: 0}
     - target: {fileID: 7929089531230642128, guid: 80d474cd40c971d47adb0a123dea0e64,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -903,6 +969,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FontData.m_MinSize
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7929089531671832673, guid: 80d474cd40c971d47adb0a123dea0e64,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.025001526
+      objectReference: {fileID: 0}
+    - target: {fileID: 7929089531671832673, guid: 80d474cd40c971d47adb0a123dea0e64,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0.049988
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80d474cd40c971d47adb0a123dea0e64, type: 3}

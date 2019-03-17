@@ -920,7 +920,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Retourner voir\nle d\xE9tective"
+  m_Text: 'Retourner voir
+
+    John McBob'
 --- !u!222 &2107117712
 CanvasRenderer:
   m_ObjectHideFlags: 0
