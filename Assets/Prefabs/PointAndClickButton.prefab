@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 143341928129183464}
   - component: {fileID: 143341928129183465}
   - component: {fileID: 6739982941382137805}
+  - component: {fileID: 840016394758668864}
   m_Layer: 5
   m_Name: PointAndClickButton
   m_TagString: Untagged
@@ -142,3 +143,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vp: {fileID: 0}
+--- !u!114 &840016394758668864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143341928129183463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23cee0913c87d4b4db60ff7569b1dc1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursor: {fileID: 2800000, guid: fdaf7fd5238504ffe96935175da79c27, type: 3}
