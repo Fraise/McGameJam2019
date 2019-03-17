@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 292270086}
   - component: {fileID: 292270085}
   m_Layer: 0
-  m_Name: VP Q2-2
+  m_Name: VP Q2-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -151,6 +151,7 @@ MonoBehaviour:
   - {fileID: 512327342}
   - {fileID: 669176751}
   - {fileID: 1636743978}
+  playerToStart: {fileID: 0}
 --- !u!328 &292270086
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -238,6 +239,7 @@ MonoBehaviour:
   - {fileID: 512327342}
   - {fileID: 669176751}
   - {fileID: 1636743978}
+  playerToStart: {fileID: 0}
 --- !u!328 &374764975
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -317,12 +319,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 479304492}
-  objectsToWakeUp:
-  - {fileID: 866276873}
+  objectsToWakeUp: []
   objectsToDeactivate:
   - {fileID: 1376299584}
   - {fileID: 1066630014}
   - {fileID: 1392268305}
+  playerToStart: {fileID: 866276875}
 --- !u!328 &479304492
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -699,12 +701,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 676480117}
-  objectsToWakeUp:
-  - {fileID: 866276873}
+  objectsToWakeUp: []
   objectsToDeactivate:
   - {fileID: 1376299584}
   - {fileID: 1066630014}
   - {fileID: 1392268305}
+  playerToStart: {fileID: 866276875}
 --- !u!328 &676480117
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -789,6 +791,7 @@ MonoBehaviour:
   - {fileID: 669176751}
   - {fileID: 1636743978}
   objectsToDeactivate: []
+  playerToStart: {fileID: 0}
 --- !u!328 &866276875
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -879,6 +882,7 @@ MonoBehaviour:
   - {fileID: 512327342}
   - {fileID: 669176751}
   - {fileID: 1636743978}
+  playerToStart: {fileID: 0}
 --- !u!328 &906801642
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1104,12 +1108,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 1304115661}
-  objectsToWakeUp:
-  - {fileID: 866276873}
+  objectsToWakeUp: []
   objectsToDeactivate:
   - {fileID: 1376299584}
   - {fileID: 1066630014}
   - {fileID: 1392268305}
+  playerToStart: {fileID: 866276875}
 --- !u!328 &1304115661
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1826,6 +1830,7 @@ MonoBehaviour:
   - {fileID: 512327342}
   - {fileID: 669176751}
   - {fileID: 1636743978}
+  playerToStart: {fileID: 0}
 --- !u!328 &1927479826
 VideoPlayer:
   m_ObjectHideFlags: 0

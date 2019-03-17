@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: c55f1bc7777f743ca86b31a1b6713570
+=======
+guid: 8fc7fac3ae179204c833d50957a25a60
+>>>>>>> scene robert wip
 VideoClipImporter:
   externalObjects: {}
   serializedVersion: 2
