@@ -8,15 +8,12 @@ public class LoadImageScript : MonoBehaviour
 {
     public VideoPlayer videoPlayer;
     public List<GameObject> objectsToWakeUp = new List<GameObject>();
+    public List<GameObject> objectsToDeactivate = new List<GameObject>();
 
     // Start is called before the first frame update
     void Start()
     {
-        foreach (GameObject obj in objectsToWakeUp)
-        {
-            obj.SetActive(false);
-        }
-
+        videoPlayer.started += DeactivateObjects;
         videoPlayer.loopPointReached += WakeUpObjects;
     }
 
@@ -24,6 +21,14 @@ public class LoadImageScript : MonoBehaviour
     void Update()
     {
         
+    }
+
+    void DeactivateObjects(VideoPlayer vp)
+    {
+        foreach (GameObject obj in objectsToDeactivate)
+        {
+            obj.SetActive(false);
+        }
     }
 
     // Show image when video stop loading
