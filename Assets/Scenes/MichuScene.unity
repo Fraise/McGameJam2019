@@ -329,22 +329,22 @@ PrefabInstance:
     - target: {fileID: 143341928129183462, guid: 93b8eb4d895332c409585675e843af7f,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -178
+      value: -172.8
       objectReference: {fileID: 0}
     - target: {fileID: 143341928129183462, guid: 93b8eb4d895332c409585675e843af7f,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 210
+      value: 206.55
       objectReference: {fileID: 0}
     - target: {fileID: 143341928129183462, guid: 93b8eb4d895332c409585675e843af7f,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: -866.2
+      value: -855.8
       objectReference: {fileID: 0}
     - target: {fileID: 143341928129183462, guid: 93b8eb4d895332c409585675e843af7f,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 44.1
+      value: 51
       objectReference: {fileID: 0}
     - target: {fileID: 143341928129183462, guid: 93b8eb4d895332c409585675e843af7f,
         type: 3}
@@ -1371,12 +1371,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 989847699}
-  objectsToWakeUp:
-  - {fileID: 295997032}
-  - {fileID: 1854235012}
-  - {fileID: 1077400459}
-  - {fileID: 1445665133}
-  - {fileID: 1417426271}
+  objectsToWakeUp: []
   objectsToDeactivate:
   - {fileID: 295997032}
   - {fileID: 1854235012}
