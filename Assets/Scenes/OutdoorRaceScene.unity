@@ -274,6 +274,7 @@ GameObject:
   - component: {fileID: 289763845}
   - component: {fileID: 289763844}
   - component: {fileID: 289763843}
+  - component: {fileID: 289763847}
   m_Layer: 5
   m_Name: Cheval
   m_TagString: Untagged
@@ -297,8 +298,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -204.90002, y: 0.7000122}
-  m_SizeDelta: {x: -711.4, y: -355.7}
+  m_AnchoredPosition: {x: -205.5, y: -1.8}
+  m_SizeDelta: {x: -665.4, y: -298.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &289763843
 MonoBehaviour:
@@ -403,6 +404,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 289763841}
   m_CullTransparentMesh: 0
+--- !u!114 &289763847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289763841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23cee0913c87d4b4db60ff7569b1dc1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursor: {fileID: 2800000, guid: fdaf7fd5238504ffe96935175da79c27, type: 3}
 --- !u!1 &291453367
 GameObject:
   m_ObjectHideFlags: 0
