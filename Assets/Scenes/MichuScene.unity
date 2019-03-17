@@ -441,6 +441,7 @@ MonoBehaviour:
   - {fileID: 1417426271}
   - {fileID: 836746626}
   playerToStart: {fileID: 836746628}
+  onTopOfSprites: 0
 --- !u!328 &434016706
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -449,7 +450,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 434016704}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 7dcde30786f1d432194e4e4423684b56, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 8c5209cb319672e469a17b764ca561f9, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 986644503}
@@ -561,6 +562,7 @@ MonoBehaviour:
   - {fileID: 1913692589}
   objectsToDeactivate: []
   playerToStart: {fileID: 0}
+  onTopOfSprites: 0
 --- !u!4 &585151357
 Transform:
   m_ObjectHideFlags: 0
@@ -871,6 +873,7 @@ MonoBehaviour:
   objectsToWakeUp: []
   objectsToDeactivate: []
   playerToStart: {fileID: 0}
+  onTopOfSprites: 0
 --- !u!328 &836746628
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -879,7 +882,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 836746626}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: b50449b32a1384560830ea3c52b650b4, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: a3678a7c3ef6e9f4ba944f64914a8fe9, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 986644503}
@@ -902,7 +905,7 @@ VideoPlayer:
   m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 0
   m_SkipOnDrop: 1
-  m_Looping: 0
+  m_Looping: 1
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
 --- !u!4 &836746629
@@ -1108,6 +1111,7 @@ MonoBehaviour:
   - {fileID: 2055730388}
   - {fileID: 1630887140}
   playerToStart: {fileID: 0}
+  onTopOfSprites: 0
 --- !u!328 &919149724
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1199,7 +1203,13 @@ MonoBehaviour:
   - {fileID: 289179423}
   - {fileID: 840685275}
   - {fileID: 1913692589}
+  - {fileID: 295997032}
+  - {fileID: 1854235012}
+  - {fileID: 1077400459}
+  - {fileID: 1445665133}
+  - {fileID: 1417426271}
   playerToStart: {fileID: 0}
+  onTopOfSprites: 0
 --- !u!328 &977198924
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1367,7 +1377,6 @@ MonoBehaviour:
   - {fileID: 1077400459}
   - {fileID: 1445665133}
   - {fileID: 1417426271}
-  - {fileID: 836746626}
   objectsToDeactivate:
   - {fileID: 295997032}
   - {fileID: 1854235012}
@@ -1375,7 +1384,8 @@ MonoBehaviour:
   - {fileID: 1445665133}
   - {fileID: 1417426271}
   - {fileID: 836746626}
-  playerToStart: {fileID: 836746628}
+  playerToStart: {fileID: 585151355}
+  onTopOfSprites: 0
 --- !u!328 &989847699
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1384,7 +1394,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 989847697}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 7dcde30786f1d432194e4e4423684b56, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 25d23680c04301b4b8452a8b0b28a033, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 986644503}
@@ -1612,7 +1622,8 @@ MonoBehaviour:
   - {fileID: 289179423}
   - {fileID: 840685275}
   - {fileID: 1913692589}
-  playerToStart: {fileID: 836746628}
+  playerToStart: {fileID: 0}
+  onTopOfSprites: 0
 --- !u!328 &1030249909
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1621,7 +1632,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1030249907}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: b50449b32a1384560830ea3c52b650b4, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 864c980d202b1447e817efd88c1790d1, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 986644503}
@@ -1707,6 +1718,7 @@ MonoBehaviour:
   - {fileID: 1417426271}
   - {fileID: 836746626}
   playerToStart: {fileID: 836746628}
+  onTopOfSprites: 0
 --- !u!328 &1046136772
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1715,7 +1727,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1046136770}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 7dcde30786f1d432194e4e4423684b56, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 38749f318b4c06e4781f4c20f5c201b6, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 986644503}
@@ -1967,6 +1979,7 @@ MonoBehaviour:
   - {fileID: 840685275}
   - {fileID: 1913692589}
   playerToStart: {fileID: 0}
+  onTopOfSprites: 0
 --- !u!4 &1183479715
 Transform:
   m_ObjectHideFlags: 0
@@ -2169,6 +2182,11 @@ PrefabInstance:
       propertyPath: vp
       value: 
       objectReference: {fileID: 1046136772}
+    - target: {fileID: 143341928129183465, guid: 93b8eb4d895332c409585675e843af7f,
+        type: 3}
+      propertyPath: m_Colors.m_NormalColor.a
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93b8eb4d895332c409585675e843af7f, type: 3}
 --- !u!224 &1417426270 stripped
@@ -2229,6 +2247,7 @@ MonoBehaviour:
   - {fileID: 1417426271}
   - {fileID: 836746626}
   playerToStart: {fileID: 836746628}
+  onTopOfSprites: 0
 --- !u!328 &1424560750
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -2237,7 +2256,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1424560748}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 7dcde30786f1d432194e4e4423684b56, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 5cfc2ee3a917df84d8c39e7fb7288212, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 986644503}
@@ -2478,11 +2497,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 1541771457}
-  objectsToWakeUp: []
+  objectsToWakeUp:
+  - {fileID: 295997032}
+  - {fileID: 1854235012}
+  - {fileID: 1077400459}
+  - {fileID: 1445665133}
+  - {fileID: 1417426271}
   objectsToDeactivate:
   - {fileID: 1006444511}
   - {fileID: 1592688422}
-  playerToStart: {fileID: 0}
+  playerToStart: {fileID: 836746628}
+  onTopOfSprites: 0
 --- !u!4 &1541771459
 Transform:
   m_ObjectHideFlags: 0
@@ -2539,6 +2564,7 @@ MonoBehaviour:
   - {fileID: 840685275}
   - {fileID: 1913692589}
   playerToStart: {fileID: 0}
+  onTopOfSprites: 0
 --- !u!328 &1577524858
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -2547,7 +2573,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1577524856}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: b50449b32a1384560830ea3c52b650b4, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 409a993f9a8c74720832ab25ed3ed805, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 986644503}
@@ -3204,6 +3230,7 @@ MonoBehaviour:
   - {fileID: 840685275}
   - {fileID: 1913692589}
   playerToStart: {fileID: 0}
+  onTopOfSprites: 0
 --- !u!328 &1957459774
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -3212,7 +3239,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1957459772}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: b50449b32a1384560830ea3c52b650b4, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 4d9e97bc543f94410b21112d211b6502, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 986644503}
@@ -3468,11 +3495,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 2060819115}
-  objectsToWakeUp: []
+  objectsToWakeUp:
+  - {fileID: 295997032}
+  - {fileID: 1854235012}
+  - {fileID: 1077400459}
+  - {fileID: 1445665133}
+  - {fileID: 1417426271}
   objectsToDeactivate:
   - {fileID: 1006444511}
   - {fileID: 1592688422}
-  playerToStart: {fileID: 0}
+  playerToStart: {fileID: 836746628}
+  onTopOfSprites: 0
 --- !u!4 &2060819117
 Transform:
   m_ObjectHideFlags: 0
@@ -3533,6 +3566,7 @@ MonoBehaviour:
   - {fileID: 1417426271}
   - {fileID: 836746626}
   playerToStart: {fileID: 836746628}
+  onTopOfSprites: 0
 --- !u!328 &2083134767
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -3541,7 +3575,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2083134765}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 7dcde30786f1d432194e4e4423684b56, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: ac5ed0d30a010bc4f9355e3220feaf45, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 986644503}
@@ -3653,6 +3687,7 @@ MonoBehaviour:
   - {fileID: 2055730388}
   - {fileID: 1630887140}
   playerToStart: {fileID: 0}
+  onTopOfSprites: 0
 --- !u!4 &2100842382
 Transform:
   m_ObjectHideFlags: 0
