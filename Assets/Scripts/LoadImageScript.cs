@@ -9,12 +9,17 @@ public class LoadImageScript : MonoBehaviour
     public VideoPlayer videoPlayer;
     public List<GameObject> objectsToWakeUp = new List<GameObject>();
     public List<GameObject> objectsToDeactivate = new List<GameObject>();
+    public VideoPlayer playerToStart = null;
 
     // Start is called before the first frame update
     void Start()
     {
         videoPlayer.started += DeactivateObjects;
         videoPlayer.loopPointReached += WakeUpObjects;
+        if (playerToStart != null)
+        {
+            videoPlayer.loopPointReached += PlayVideo;
+        }
     }
 
     // Update is called once per frame
@@ -38,5 +43,10 @@ public class LoadImageScript : MonoBehaviour
         {
             obj.SetActive(true);
         }
+    }
+
+    void PlayVideo(VideoPlayer vp)
+    {
+        playerToStart.Play();
     }
 }

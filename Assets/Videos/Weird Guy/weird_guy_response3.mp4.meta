@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 95a2fc93bed0e450aba9eae4dac19888
+=======
+guid: fe0f253874400c0468fc1d36733c0530
+>>>>>>> fix mec louche scene
 VideoClipImporter:
   externalObjects: {}
   serializedVersion: 2

@@ -145,6 +145,7 @@ MonoBehaviour:
   videoPlayer: {fileID: 139783880}
   objectsToWakeUp: []
   objectsToDeactivate: []
+  playerToStart: {fileID: 0}
 --- !u!328 &139783880
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -438,6 +439,7 @@ MonoBehaviour:
   videoPlayer: {fileID: 376228034}
   objectsToWakeUp: []
   objectsToDeactivate: []
+  playerToStart: {fileID: 0}
 --- !u!328 &376228034
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -517,12 +519,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 403438704}
-  objectsToWakeUp:
-  - {fileID: 1657626083}
+  objectsToWakeUp: []
   objectsToDeactivate:
   - {fileID: 299482771}
   - {fileID: 1796598657}
   - {fileID: 743488673}
+  playerToStart: {fileID: 1657626085}
 --- !u!328 &403438704
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -539,7 +541,7 @@ VideoPlayer:
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: _MainTex
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_AspectRatio: 2
   m_DataSource: 0
   m_PlaybackSpeed: 1
@@ -602,6 +604,7 @@ MonoBehaviour:
   videoPlayer: {fileID: 486018277}
   objectsToWakeUp: []
   objectsToDeactivate: []
+  playerToStart: {fileID: 0}
 --- !u!328 &486018277
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -683,6 +686,7 @@ MonoBehaviour:
   videoPlayer: {fileID: 548614907}
   objectsToWakeUp: []
   objectsToDeactivate: []
+  playerToStart: {fileID: 0}
 --- !u!328 &548614907
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1055,6 +1059,7 @@ MonoBehaviour:
   videoPlayer: {fileID: 812214787}
   objectsToWakeUp: []
   objectsToDeactivate: []
+  playerToStart: {fileID: 0}
 --- !u!328 &812214787
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1136,6 +1141,7 @@ MonoBehaviour:
   videoPlayer: {fileID: 839778991}
   objectsToWakeUp: []
   objectsToDeactivate: []
+  playerToStart: {fileID: 0}
 --- !u!328 &839778991
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1223,6 +1229,7 @@ MonoBehaviour:
   - {fileID: 299482771}
   - {fileID: 1796598657}
   - {fileID: 743488673}
+  playerToStart: {fileID: 0}
 --- !u!328 &1088111667
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1411,6 +1418,7 @@ MonoBehaviour:
   - {fileID: 299482771}
   - {fileID: 1796598657}
   - {fileID: 743488673}
+  playerToStart: {fileID: 0}
 --- !u!328 &1266143893
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1492,6 +1500,7 @@ MonoBehaviour:
   videoPlayer: {fileID: 1590306801}
   objectsToWakeUp: []
   objectsToDeactivate: []
+  playerToStart: {fileID: 0}
 --- !u!328 &1590306801
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1508,7 +1517,7 @@ VideoPlayer:
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: _MainTex
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_AspectRatio: 2
   m_DataSource: 0
   m_PlaybackSpeed: 1
@@ -1573,6 +1582,7 @@ MonoBehaviour:
   videoPlayer: {fileID: 1657626085}
   objectsToWakeUp: []
   objectsToDeactivate: []
+  playerToStart: {fileID: 0}
 --- !u!328 &1657626085
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1589,7 +1599,7 @@ VideoPlayer:
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: _MainTex
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_AspectRatio: 2
   m_DataSource: 0
   m_PlaybackSpeed: 1
@@ -1602,7 +1612,7 @@ VideoPlayer:
   m_ControlledAudioTrackCount: 0
   m_PlayOnAwake: 0
   m_SkipOnDrop: 1
-  m_Looping: 0
+  m_Looping: 1
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
 --- !u!4 &1657626086
@@ -1731,6 +1741,7 @@ MonoBehaviour:
   - {fileID: 299482771}
   - {fileID: 1796598657}
   - {fileID: 743488673}
+  playerToStart: {fileID: 0}
 --- !u!328 &1776944455
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1818,6 +1829,7 @@ MonoBehaviour:
   videoPlayer: {fileID: 2085975209}
   objectsToWakeUp: []
   objectsToDeactivate: []
+  playerToStart: {fileID: 0}
 --- !u!328 &2085975209
 VideoPlayer:
   m_ObjectHideFlags: 0
