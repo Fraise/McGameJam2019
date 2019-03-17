@@ -384,7 +384,7 @@ PrefabInstance:
     - target: {fileID: 5575609029308742559, guid: 102b025fe1bce2c408d2df22678a5843,
         type: 3}
       propertyPath: m_Text
-      value: "Je m\xE8ne une enqu\xEAte dans le voisinage.\r"
+      value: "Merci et au revoir !\r"
       objectReference: {fileID: 0}
     - target: {fileID: 5575609029308742559, guid: 102b025fe1bce2c408d2df22678a5843,
         type: 3}
@@ -759,7 +759,7 @@ PrefabInstance:
     - target: {fileID: 5575609029308742559, guid: 102b025fe1bce2c408d2df22678a5843,
         type: 3}
       propertyPath: m_Text
-      value: "Avez-vous entendu parler de l\u2019homme-cheval ?\r"
+      value: Etiez-vous chez vous hier soir ?
       objectReference: {fileID: 0}
     - target: {fileID: 5575609029308742559, guid: 102b025fe1bce2c408d2df22678a5843,
         type: 3}
@@ -771,6 +771,11 @@ PrefabInstance:
       propertyPath: m_FontData.m_MaxSize
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 1230873168205653257, guid: 102b025fe1bce2c408d2df22678a5843,
+        type: 3}
+      propertyPath: vp
+      value: 
+      objectReference: {fileID: 1776944455}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 102b025fe1bce2c408d2df22678a5843, type: 3}
 --- !u!224 &662869431 stripped
@@ -899,13 +904,18 @@ PrefabInstance:
     - target: {fileID: 5575609029308742559, guid: 102b025fe1bce2c408d2df22678a5843,
         type: 3}
       propertyPath: m_Text
-      value: Avez-vous vu quelque chose de suspect hier soir ?
+      value: "Que pouvez-vous me dire sur vos voisins?\r"
       objectReference: {fileID: 0}
     - target: {fileID: 5575609029308742559, guid: 102b025fe1bce2c408d2df22678a5843,
         type: 3}
       propertyPath: m_FontData.m_FontSize
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1230873168205653257, guid: 102b025fe1bce2c408d2df22678a5843,
+        type: 3}
+      propertyPath: vp
+      value: 
+      objectReference: {fileID: 1088111667}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 102b025fe1bce2c408d2df22678a5843, type: 3}
 --- !u!224 &723651698 stripped
@@ -1111,7 +1121,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 1088111667}
-  objectsToWakeUp: []
+  objectsToWakeUp:
+  - {fileID: 299482771}
+  - {fileID: 1796598657}
+  - {fileID: 743488673}
 --- !u!328 &1088111667
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1528,7 +1541,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 1776944455}
-  objectsToWakeUp: []
+  objectsToWakeUp:
+  - {fileID: 299482771}
+  - {fileID: 1796598657}
+  - {fileID: 743488673}
 --- !u!328 &1776944455
 VideoPlayer:
   m_ObjectHideFlags: 0

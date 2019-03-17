@@ -5,7 +5,7 @@ using UnityEngine.Video;
 
 public class ButtonScript : MonoBehaviour
 {
-    VideoPlayer vp;
+    public VideoPlayer vp;
 
     // Start is called before the first frame update
     void Start()
