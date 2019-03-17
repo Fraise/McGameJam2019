@@ -10,22 +10,24 @@ public class LoadImageScript : MonoBehaviour
     public List<GameObject> objectsToWakeUp = new List<GameObject>();
     public List<GameObject> objectsToDeactivate = new List<GameObject>();
     public VideoPlayer playerToStart = null;
+    public bool onTopOfSprites = false;
 
     // Start is called before the first frame update
     void Start()
     {
         videoPlayer.started += DeactivateObjects;
         videoPlayer.loopPointReached += WakeUpObjects;
+        if(onTopOfSprites){
+            videoPlayer.loopPointReached += HideVideo;
+        }
         if (playerToStart != null)
         {
             videoPlayer.loopPointReached += PlayVideo;
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    void HideVideo(VideoPlayer vp){
+        videoPlayer.enabled = false;
     }
 
     void DeactivateObjects(VideoPlayer vp)
