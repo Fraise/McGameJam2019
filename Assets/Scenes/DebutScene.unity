@@ -191,7 +191,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 1846584164}
-  scene: OutdoorScene
+  scene: OutdoorRaceScene
 --- !u!1 &2137903834
 GameObject:
   m_ObjectHideFlags: 0
