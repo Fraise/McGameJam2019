@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: McGameJam2019
+  companyName: Team17McGameJam2019
+  productName: LeJeuDuStagiaireDuChasseurdeLegendesUrbaines
   defaultCursor: {fileID: 2800000, guid: 43cbb28e9f8b249bbb22038e2dd4d876, type: 3}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -113,10 +113,10 @@ PlayerSettings:
   switchNVNOtherPoolsGranularity: 16777216
   vulkanEnableSetSRGBWrite: 0
   m_SupportedAspectRatios:
-    4:3: 1
+    4:3: 0
     5:4: 0
     16:10: 0
-    16:9: 0
+    16:9: 1
     Others: 0
   bundleVersion: 0.1
   preloadedAssets: []
