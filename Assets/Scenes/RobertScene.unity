@@ -152,6 +152,7 @@ MonoBehaviour:
   - {fileID: 669176751}
   - {fileID: 1636743978}
   playerToStart: {fileID: 0}
+  onTopOfSprites: 0
 --- !u!328 &292270086
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -211,6 +212,7 @@ GameObject:
   - component: {fileID: 374764976}
   - component: {fileID: 374764975}
   - component: {fileID: 374764974}
+  - component: {fileID: 374764977}
   m_Layer: 0
   m_Name: VP Q2-3
   m_TagString: Untagged
@@ -231,15 +233,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 374764975}
-  objectsToWakeUp:
-  - {fileID: 512327342}
-  - {fileID: 669176751}
-  - {fileID: 1636743978}
+  objectsToWakeUp: []
   objectsToDeactivate:
   - {fileID: 512327342}
   - {fileID: 669176751}
   - {fileID: 1636743978}
   playerToStart: {fileID: 0}
+  onTopOfSprites: 0
 --- !u!328 &374764975
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -288,6 +288,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &374764977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374764973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6545b7a50aa6e6a47bd62c22fae09a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  videoPlayer: {fileID: 374764975}
+  scene: OutdoorScene
 --- !u!1 &479304490
 GameObject:
   m_ObjectHideFlags: 0
@@ -325,6 +339,7 @@ MonoBehaviour:
   - {fileID: 1066630014}
   - {fileID: 1392268305}
   playerToStart: {fileID: 866276875}
+  onTopOfSprites: 0
 --- !u!328 &479304492
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -701,12 +716,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 676480117}
-  objectsToWakeUp: []
+  objectsToWakeUp:
+  - {fileID: 1376299584}
+  - {fileID: 1066630014}
+  - {fileID: 1392268305}
   objectsToDeactivate:
   - {fileID: 1376299584}
   - {fileID: 1066630014}
   - {fileID: 1392268305}
-  playerToStart: {fileID: 866276875}
+  playerToStart: {fileID: 0}
+  onTopOfSprites: 0
 --- !u!328 &676480117
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -792,6 +811,7 @@ MonoBehaviour:
   - {fileID: 1636743978}
   objectsToDeactivate: []
   playerToStart: {fileID: 0}
+  onTopOfSprites: 0
 --- !u!328 &866276875
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -883,6 +903,7 @@ MonoBehaviour:
   - {fileID: 669176751}
   - {fileID: 1636743978}
   playerToStart: {fileID: 0}
+  onTopOfSprites: 0
 --- !u!328 &906801642
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1108,12 +1129,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 1304115661}
-  objectsToWakeUp: []
+  objectsToWakeUp:
+  - {fileID: 1376299584}
+  - {fileID: 1066630014}
+  - {fileID: 1392268305}
   objectsToDeactivate:
   - {fileID: 1376299584}
   - {fileID: 1066630014}
   - {fileID: 1392268305}
-  playerToStart: {fileID: 866276875}
+  playerToStart: {fileID: 0}
+  onTopOfSprites: 0
 --- !u!328 &1304115661
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1846,18 +1871,18 @@ PrefabInstance:
     - target: {fileID: 5575609029414898733, guid: 102b025fe1bce2c408d2df22678a5843,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ChangeScene
+      value: onClick
       objectReference: {fileID: 0}
     - target: {fileID: 5575609029414898733, guid: 102b025fe1bce2c408d2df22678a5843,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5575609029414898733, guid: 102b025fe1bce2c408d2df22678a5843,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1636743979}
+      objectReference: {fileID: 1636743980}
     - target: {fileID: 5575609029414898733, guid: 102b025fe1bce2c408d2df22678a5843,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -1877,16 +1902,16 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1636743976}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1636743979
+--- !u!114 &1636743980 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 1230873168205653257, guid: 102b025fe1bce2c408d2df22678a5843,
+    type: 3}
+  m_PrefabInstance: {fileID: 1636743976}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1636743978}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6abe5d20ce874d14fa6a467f94f992f2, type: 3}
+  m_Script: {fileID: 11500000, guid: aaac55ed64d9d9345b217ec9b84ec5c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1927479824
@@ -1929,6 +1954,7 @@ MonoBehaviour:
   - {fileID: 669176751}
   - {fileID: 1636743978}
   playerToStart: {fileID: 0}
+  onTopOfSprites: 0
 --- !u!328 &1927479826
 VideoPlayer:
   m_ObjectHideFlags: 0

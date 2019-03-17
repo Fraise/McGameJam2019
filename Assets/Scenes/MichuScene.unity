@@ -329,22 +329,22 @@ PrefabInstance:
     - target: {fileID: 143341928129183462, guid: 93b8eb4d895332c409585675e843af7f,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -178
+      value: -172.8
       objectReference: {fileID: 0}
     - target: {fileID: 143341928129183462, guid: 93b8eb4d895332c409585675e843af7f,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 210
+      value: 206.55
       objectReference: {fileID: 0}
     - target: {fileID: 143341928129183462, guid: 93b8eb4d895332c409585675e843af7f,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: -866.2
+      value: -855.8
       objectReference: {fileID: 0}
     - target: {fileID: 143341928129183462, guid: 93b8eb4d895332c409585675e843af7f,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 44.1
+      value: 51
       objectReference: {fileID: 0}
     - target: {fileID: 143341928129183462, guid: 93b8eb4d895332c409585675e843af7f,
         type: 3}
@@ -882,7 +882,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 836746626}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: a3678a7c3ef6e9f4ba944f64914a8fe9, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 3601c848283e5cf4593e49446d4ee042, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 986644503}
@@ -1371,12 +1371,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 989847699}
-  objectsToWakeUp:
-  - {fileID: 295997032}
-  - {fileID: 1854235012}
-  - {fileID: 1077400459}
-  - {fileID: 1445665133}
-  - {fileID: 1417426271}
+  objectsToWakeUp: []
   objectsToDeactivate:
   - {fileID: 295997032}
   - {fileID: 1854235012}
@@ -1596,6 +1591,7 @@ GameObject:
   - component: {fileID: 1030249910}
   - component: {fileID: 1030249909}
   - component: {fileID: 1030249908}
+  - component: {fileID: 1030249911}
   m_Layer: 0
   m_Name: VP Q3-4
   m_TagString: Untagged
@@ -1672,6 +1668,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1030249911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030249907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6545b7a50aa6e6a47bd62c22fae09a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  videoPlayer: {fileID: 1030249909}
+  scene: OutdoorScene
 --- !u!1 &1046136770
 GameObject:
   m_ObjectHideFlags: 0
